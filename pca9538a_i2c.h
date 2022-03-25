@@ -14,9 +14,11 @@
 
 #include <stdbool.h>
 
+#include "board_def.h"
+
 /* Export constants ----------------------------------------------------------*/
 
-#define PCA9538A_USED_NUM   1U
+#define PCA9538A_USED_NUM	BOARD_ICS_USED_NUM_PCA9538A
 
 /* Export functions prototypes -----------------------------------------------*/
 
